@@ -15,9 +15,9 @@ return new class extends Migration
     {
         Schema::create('article', function (Blueprint $table) {
             $table->integer('id', true);
-            $table->string('title', 128);
-            $table->string('content');
-            $table->string('photo', 254);
+            $table->string('title', 254);
+            $table->text('content');
+            $table->text('photo');
             $table->integer('author_id')->index('fk_author_id');
             $table->integer('category_id')->index('fk_category_id');
             $table->timestamps();

@@ -9,7 +9,7 @@
 
                     <div class="d-md-flex post-entry-2 half">
                         <a href="single-post.html" class="me-4 thumbnail">
-                            <img src="assets/img/post-landscape-6.jpg" alt="" class="img-fluid">
+                            <img src="{{ url('/img/post-landscape-6.jpg')}}" alt="" class="img-fluid">
                         </a>
                         <div>
                             <div class="post-meta"><span class="date">Culture</span> <span
@@ -20,7 +20,7 @@
                                 exercitationem magni voluptates dolore. Tenetur fugiat voluptates quas, nobis error
                                 deserunt aliquam temporibus sapiente, laudantium dolorum itaque libero eos deleniti?</p>
                             <div class="d-flex align-items-center author">
-                                <div class="photo"><img src="assets/img/person-2.jpg" alt="" class="img-fluid">
+                                <div class="photo"><img src="{{ url('/img/person-2.jpg')}}" alt="" class="img-fluid">
                                 </div>
                                 <div class="name">
                                     <h3 class="m-0 p-0">Wade Warren</h3>
@@ -31,7 +31,7 @@
 
                     <div class="d-md-flex post-entry-2 half">
                         <a href="single-post.html" class="me-4 thumbnail">
-                            <img src="assets/img/post-landscape-1.jpg" alt="" class="img-fluid">
+                            <img src="{{ url('/img/post-landscape-1.jpg') }}" alt="" class="img-fluid">
                         </a>
                         <div>
                             <div class="post-meta"><span class="date">Culture</span> <span
@@ -42,7 +42,7 @@
                                 exercitationem magni voluptates dolore. Tenetur fugiat voluptates quas, nobis error
                                 deserunt aliquam temporibus sapiente, laudantium dolorum itaque libero eos deleniti?</p>
                             <div class="d-flex align-items-center author">
-                                <div class="photo"><img src="assets/img/person-2.jpg" alt="" class="img-fluid">
+                                <div class="photo"><img src="{{ url('/img/person-2.jpg') }}" alt="" class="img-fluid">
                                 </div>
                                 <div class="name">
                                     <h3 class="m-0 p-0">Wade Warren</h3>
@@ -53,7 +53,7 @@
 
                     <div class="d-md-flex post-entry-2 half">
                         <a href="single-post.html" class="me-4 thumbnail">
-                            <img src="assets/img/post-landscape-2.jpg" alt="" class="img-fluid">
+                            <img src="{{ url('/img/post-landscape-2.jpg') }}" alt="" class="img-fluid">
                         </a>
                         <div>
                             <div class="post-meta"><span class="date">Culture</span> <span
@@ -64,7 +64,7 @@
                                 exercitationem magni voluptates dolore. Tenetur fugiat voluptates quas, nobis error
                                 deserunt aliquam temporibus sapiente, laudantium dolorum itaque libero eos deleniti?</p>
                             <div class="d-flex align-items-center author">
-                                <div class="photo"><img src="assets/img/person-2.jpg" alt="" class="img-fluid">
+                                <div class="photo"><img src="{{ url('/img/person-2.jpg') }}" alt="" class="img-fluid">
                                 </div>
                                 <div class="name">
                                     <h3 class="m-0 p-0">Wade Warren</h3>
@@ -75,7 +75,7 @@
 
                     <div class="d-md-flex post-entry-2 half">
                         <a href="single-post.html" class="me-4 thumbnail">
-                            <img src="assets/img/post-landscape-3.jpg" alt="" class="img-fluid">
+                            <img src="{{ url('/img/post-landscape-3.jpg') }}" alt="" class="img-fluid">
                         </a>
                         <div>
                             <div class="post-meta"><span class="date">Culture</span> <span
@@ -86,7 +86,7 @@
                                 exercitationem magni voluptates dolore. Tenetur fugiat voluptates quas, nobis error
                                 deserunt aliquam temporibus sapiente, laudantium dolorum itaque libero eos deleniti?</p>
                             <div class="d-flex align-items-center author">
-                                <div class="photo"><img src="assets/img/person-2.jpg" alt="" class="img-fluid">
+                                <div class="photo"><img src="{{ url('/img/person-2.jpg') }}" alt="" class="img-fluid">
                                 </div>
                                 <div class="name">
                                     <h3 class="m-0 p-0">Wade Warren</h3>
@@ -97,7 +97,7 @@
 
                     <div class="d-md-flex post-entry-2 half">
                         <a href="single-post.html" class="me-4 thumbnail">
-                            <img src="assets/img/post-landscape-4.jpg" alt="" class="img-fluid">
+                            <img src="{{ url('/img/post-landscape-4.jpg') }}" alt="" class="img-fluid">
                         </a>
                         <div>
                             <div class="post-meta"><span class="date">Culture</span> <span
@@ -108,7 +108,7 @@
                                 exercitationem magni voluptates dolore. Tenetur fugiat voluptates quas, nobis error
                                 deserunt aliquam temporibus sapiente, laudantium dolorum itaque libero eos deleniti?</p>
                             <div class="d-flex align-items-center author">
-                                <div class="photo"><img src="assets/img/person-2.jpg" alt="" class="img-fluid">
+                                <div class="photo"><img src="{{ url('/img/person-2.jpg') }}" alt="" class="img-fluid">
                                 </div>
                                 <div class="name">
                                     <h3 class="m-0 p-0">Wade Warren</h3>
@@ -318,7 +318,7 @@
                         <div class="video-post">
                             <a href="https://www.youtube.com/watch?v=AiFfDjmd0jU" class="glightbox link-video">
                                 <span class="bi-play-fill"></span>
-                                <img src="assets/img/post-landscape-5.jpg" alt="" class="img-fluid">
+                                <img src="{{ url('/img/post-landscape-5.jpg') }}" alt="" class="img-fluid">
                             </a>
                         </div>
                     </div><!-- End Video -->

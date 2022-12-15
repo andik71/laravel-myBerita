@@ -13,14 +13,16 @@
             <ul>
                 <li><a href="{{ url('/') }}">Home</a></li>
                 {{-- <li><a href="single-post.html">Single Post</a></li> --}} 
-                <li class="dropdown"><a href="category.html"><span>Categories</span></a>
+                <li class="dropdown"><a href="{{ url('/category') }}"><span>Categories</span></a>
                 <li><a href="{{ url('/about') }}">About</a></li>
                 <li><a href="{{ url('/contact') }}">Contact</a></li>
             </ul>
         </nav><!-- .navbar -->
 
         <div class="position-relative">
-            <a href="{{ url('/administrator') }}" class="mx-2">Login &nbsp; <span class="bi bi-person-circle"></span></a>
+            <button class="btn btn-primary btn-sm">
+                <a class="text-light" href="{{ url('/administrator') }}" class="mx-2">Admin Panel</a>
+            </button>
             <a href="#" class="mx-2 js-search-open"><span class="bi-search"></span></a>
             <i class="bi bi-list mobile-nav-toggle"></i>
 
@@ -28,7 +30,7 @@
 
             <!-- ======= Search Form ======= -->
             <div class="search-form-wrap js-search-form-wrap">
-                <form action="search-result.html" class="search-form">
+                <form action="{{url('/result')}}" class="search-form">
                     <span class="icon bi-search"></span>
                     <input type="text" placeholder="Search" class="form-control">
                     <button class="btn js-search-close"><span class="bi-x"></span></button>

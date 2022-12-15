@@ -72,7 +72,7 @@
                                                 </a>
                                                 <br>
                                                 <a class="btn btn-sm btn-warning"
-                                                    href="{{ url('administrator/article/detail') }}">
+                                                    href="{{ url('administrator/article/' . $row->id . '/detail') }}">
                                                     <i class="bi bi-eye-fill"></i>
                                                 </a>
                                             </form>

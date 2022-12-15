@@ -78,5 +78,6 @@ Route::post('/administrator/article/store', [Article::class, 'store']);
 Route::get('/administrator/article/{id}/edit', [Article::class, 'edit']);
 Route::put('/administrator/article/{id}/update', [Article::class, 'update']);
 Route::delete('/administrator/article/{id}/delete', [Article::class, 'destroy']);
+Route::get('/administrator/article/{id}/detail', [Article::class, 'show']);
 Route::get('/administrator/article/report', [Article::class, 'generatePDF']);
 

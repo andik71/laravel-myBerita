@@ -76,8 +76,11 @@ class Article extends Controller
      */
     public function show($id)
     {
-        $author = AuthorModel::all()->where('id', $id)->first();
-        return view('admin.author.detail', compact('author'));
+        // $author = AuthorModel::all()->where('id', $id)->first();
+        $category = CategoryModel::all();
+        $author = AuthorModel::all();
+        $article = ArticleModel::findOrFail($id);
+        return view('admin.article.detail', compact('category', 'author', 'article'));
     }
 
     /**
